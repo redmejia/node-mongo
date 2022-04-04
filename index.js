@@ -8,7 +8,7 @@ MongoClient.connect(url, { useUnifiedTopology: true }, (err, client) => {
 
     assert.strictEqual(err, null);
 
-    console.log('Connected correctly to server'); // mongodb server not node server
+    console.log('Connected correctly to server'); // mongodb server 
 
     const db = client.db(dbname);
 
